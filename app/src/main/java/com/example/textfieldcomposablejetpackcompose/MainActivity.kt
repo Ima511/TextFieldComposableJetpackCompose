@@ -82,8 +82,8 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 
         TextField(value = enteredValue,
             onValueChange = {newText -> enteredValue = newText},
-            label = { Text(text = "Name", style = TextStyle(fontWeight = FontWeight.Bold))} ,
-            placeholder = { Text(text = "Enter your name here", style = TextStyle(fontStyle = FontStyle.Italic))},
+            label = { Text(text = "Age", style = TextStyle(fontWeight = FontWeight.Bold))} ,
+            placeholder = { Text(text = "Enter your age here", style = TextStyle(fontStyle = FontStyle.Italic))},
             leadingIcon = { IconButton(onClick = {
                 Toast.makeText(context,"Clicked on Email Icon",Toast.LENGTH_SHORT).show()
             }) {
